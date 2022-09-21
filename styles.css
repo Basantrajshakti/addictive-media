@@ -394,6 +394,10 @@ footer {
     position: static;
     width: 80%;
   }
+
+  .main-section h1 {
+    padding-top: 3rem;
+  }
 }
 
 @media (min-width:48rem) {
@@ -417,6 +421,21 @@ footer {
 }
 
 @media (min-width:58rem) {
+  .main-section h1 {
+    padding-top: 5rem;
+    white-space: initial;
+  }
+
+  .main-section h1,
+  .main-section .red-box {
+    margin-left: 5rem;
+  }
+
+  .main-section .red-box {
+    bottom: 7rem;
+    left: 1rem;
+  }
+
   .heading {
     white-space: initial;
   }
